@@ -1,0 +1,10 @@
+
+$LoaderPosition : absolute;
+$LoaderTop: 30%;
+$LoaderLeft: 45%;
+
+.loader-Modify {
+    position: $LoaderPosition;
+    top: $LoaderTop;
+    left: $LoaderLeft;
+}

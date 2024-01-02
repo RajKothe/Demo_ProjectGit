@@ -1,0 +1,64 @@
+/* Common CSS Start */
+
+.card-img-top {
+  height: 200px;
+}
+.text-modify {
+  font-size: 15px;
+  font-weight:700;
+}
+.star-filled {
+  font-size: 20px;
+}
+.star-empty {
+  display: none;
+}
+/* .loader-Modify{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+} */
+
+.spinner-border {
+  height: 80px ;
+  width: 80px;
+}
+
+/* Common CSS End */
+
+
+/* Responsive CSS Start*/
+@media (max-width: 425px) {
+  .div-Responsive{
+    margin-left: 1rem!important;
+  }
+  .cardBody-Responsive {
+    padding-bottom: 0px!important;
+  }
+  .text-modify {
+    font-size: 13px;
+  }
+  .card-img-top {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-Responsive {
+    margin-top: 0px!important;
+  }
+}
+
+@media (max-width: 992px) {
+  .d-flex {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .btn-primary {
+    font-size: x-small
+  }
+}
+
+/* Responsive CSS End*/
